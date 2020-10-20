@@ -1,0 +1,53 @@
+:root {
+    --dark-color: rgb(51, 29, 29);
+    --light-color:  rgba(109, 86, 86, 0.76);
+
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+.header {
+      background: var(--dark-color);
+      color: white;
+      width: 75%;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+      clip-path:polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
+}
+
+main {
+     width: 75% ;
+     height: 85vh;
+     margin: 0 auto ;
+     background: var(--dark-color);
+     padding: 8rem 2rem 3rem 2rem;/*top right bottom left*/
+     margin-top: -5rem;
+     text-align: justify;
+     
+}
+
+img {
+    width: 300px;
+    float: right;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+
+}
+
+footer {
+    width: 75%;
+    margin: 0 auto;
+    background: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: 3rem;
+
+}
